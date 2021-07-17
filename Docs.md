@@ -31,5 +31,5 @@ getgenv().Settings = {
 	CensorWord = "bleep",
 	OffensiveWords = {"ooga", "booga", ""}
 }
-
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Enviie/Anti-Profanity-Roblox-/main/Anti%20Profanity.lua"))("Yes Watch Your Potty Mouth")
 ```
