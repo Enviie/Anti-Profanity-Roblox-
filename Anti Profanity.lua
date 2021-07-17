@@ -14,7 +14,7 @@ if syn then
 		end
 		return OldCall(self, ...)
 	end)
-elseif not syn then
+else
 	local mt = getrawmetatable(game)
 	local OldCall = nil
 	OldCall = hookfunction(mt.__namecall, function(...) -- other exploits
