@@ -1,3 +1,4 @@
+assert(not game:IsLoaded() and game.Loaded:Wait() or game)
 if syn then
 	local OldCall = nil
 	OldCall = hookmetamethod(game, "__namecall", function(self, ...) -- synapse function
